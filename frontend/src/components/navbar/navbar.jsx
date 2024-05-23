@@ -25,7 +25,8 @@ const Navbar = ({ setshowlogin }) => {
         <a href='#footer' onClick={() => setMenu("contactus")} className={menu === "contactus" ? "active" : ""}>contact us</a>
       </ul>
       <div className="navbar-right">
-        <img src={assets.search_icon} alt="" />
+        <input   style={{borderRadius:"10px", height:"40px", background:"red"}}  type="text" />
+        <a href='#explore-menu'><img src={assets.search_icon} alt=""/></a> 
         <div className="navbar-search-icon">
           <Link to='/cart'><img src={assets.basket_icon} alt="" /></Link>
           <div className={gettotalamount() === 0 ? "" : "dot"}></div>
