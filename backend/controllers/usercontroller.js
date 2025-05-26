@@ -1,10 +1,12 @@
 import usermodel from "../models/usermodel.js";
 import jwt from "jsonwebtoken";
-import bcrypt from "bcrypt";
+
 import validator from "validator";
  
 import 'dotenv/config'
 
+
+const bcrypt = require("bcryptjs");
 // login user
 const loginuser = async (req, res) => {
   // Login logic here\
