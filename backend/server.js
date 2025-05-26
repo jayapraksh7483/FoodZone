@@ -11,7 +11,7 @@ import orderRouter from "./routes/orderroute.js";
  
  //app config
  const app=express();
- const port =4000;
+ const port =process.env.PORT || 4000;
  
  //mongodb+srv://divvijayaprakash:1692971@cluster0.b3oczah.mongodb.net/?
   //middleware
