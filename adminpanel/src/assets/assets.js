@@ -16,4 +16,4 @@ export const assets ={
     jp,
 }
 
-export const url = 'http://localhost:4000'
+export const url = 'https://foodzone-backend-zm5u.onrender.com'
